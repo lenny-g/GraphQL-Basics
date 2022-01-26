@@ -1,0 +1,29 @@
+{
+  "name": "graphql-basics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lenny-g/GraphQL-Basics.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lenny-g/GraphQL-Basics/issues"
+  },
+  "homepage": "https://github.com/lenny-g/GraphQL-Basics#readme",
+  "dependencies": {
+    "apollo-server": "^3.6.2",
+    "graphql": "^16.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
