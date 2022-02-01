@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node src/index.js",
-    "dev": "nodemon src/index.js"
+    "start": "node test-three/src/index.js",
+    "dev": "nodemon test-three/src/index.js"
   },
   "repository": {
     "type": "git",
@@ -21,7 +21,10 @@
   "homepage": "https://github.com/lenny-g/GraphQL-Basics#readme",
   "dependencies": {
     "apollo-server": "^3.6.2",
-    "graphql": "^16.2.0"
+    "axios": "^0.25.0",
+    "graphql": "^16.2.0",
+    "moment": "^2.29.1",
+    "winston": "^3.5.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.15"
